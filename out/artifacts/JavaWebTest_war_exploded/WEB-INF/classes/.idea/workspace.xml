@@ -2,11 +2,39 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="JavaWebTest:war exploded" />
+      <artifact name="JavaWebTest:war" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ecfe3a9-de14-4bd2-8f3e-ca12f9d8b978" name="Default Changelist" comment="" />
+    <list default="true" id="5ecfe3a9-de14-4bd2-8f3e-ca12f9d8b978" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/thr/register/Register.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/ProcRegister.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/RegisterPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WelComPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/modifyPassword.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebTest_war_exploded/LoginPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaWebTest_war_exploded/LoginPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebTest_war_exploded/ProcLogin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaWebTest_war_exploded/ProcLogin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebTest_war_exploded/SuccessLogin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaWebTest_war_exploded/SuccessLogin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebTest_war_exploded/WEB-INF/classes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaWebTest_war_exploded/WEB-INF/classes/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebTest_war_exploded/WEB-INF/classes/com/thr/dao/DAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaWebTest_war_exploded/WEB-INF/classes/com/thr/dao/DAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebTest_war_exploded/WEB-INF/classes/web/LoginPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaWebTest_war_exploded/WEB-INF/classes/web/LoginPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebTest_war_exploded/WEB-INF/classes/web/ProcLogin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaWebTest_war_exploded/WEB-INF/classes/web/ProcLogin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebTest_war_exploded/WEB-INF/classes/web/SuccessLogin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaWebTest_war_exploded/WEB-INF/classes/web/SuccessLogin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebTest_war_exploded/WEB-INF/classes/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaWebTest_war_exploded/WEB-INF/classes/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebTest_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaWebTest_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaWebTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaWebTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaWebTest/com/thr/dao/DAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaWebTest/com/thr/dao/DAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaWebTest/web/LoginPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaWebTest/web/LoginPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaWebTest/web/ProcLogin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaWebTest/web/ProcLogin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaWebTest/web/SuccessLogin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaWebTest/web/SuccessLogin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaWebTest/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaWebTest/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thr/dao/DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thr/dao/DAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/LoginPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/LoginPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/ProcLogin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/ProcLogin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/SuccessLogin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/SuccessLogin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,10 +45,14 @@
       <list>
         <option value="JavaScript File" />
         <option value="jsf" />
+        <option value="HTML File" />
         <option value="Class" />
         <option value="Jsp File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -37,20 +69,23 @@
     </option>
   </component>
   <component name="ProjectId" id="1Zyca9D0X79ug2KtPM2VmesxheS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/mysql-connector-java-8.0.19.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 8.5.53" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.53" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
@@ -264,23 +299,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Tomcat 8.5.53" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -305,7 +324,10 @@
       <workItem from="1585970669018" duration="1003000" />
       <workItem from="1585971693066" duration="2362000" />
       <workItem from="1585974180211" duration="354000" />
-      <workItem from="1585974547459" duration="202000" />
+      <workItem from="1585974547459" duration="1595000" />
+      <workItem from="1586347491852" duration="15312000" />
+      <workItem from="1586395187725" duration="1520000" />
+      <workItem from="1586396863276" duration="824000" />
     </task>
     <servers />
   </component>
@@ -321,6 +343,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="183" key="#Project_Structure/0.0.1920.1050@0.0.1920.1050" timestamp="1585926483927" />
+    <state x="552" y="183" key="#SQL_Dialects" timestamp="1586355764574">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="183" key="#SQL_Dialects/0.0.1920.1050@0.0.1920.1050" timestamp="1586355764574" />
     <state x="552" y="198" key="#Tomcat_Server" timestamp="1585818199220">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -337,58 +363,58 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="710" y="102" width="531" height="948" key="EnvironmentVariablesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1585969482784" />
-    <state x="644" y="292" key="FileChooserDialogImpl" timestamp="1585974381158">
+    <state x="644" y="292" key="FileChooserDialogImpl" timestamp="1586397671654">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="644" y="292" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1585974381158" />
-    <state width="1293" height="170" key="GridCell.Tab.0.bottom" timestamp="1585974751698">
+    <state x="644" y="292" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1586397671654" />
+    <state width="942" height="338" key="GridCell.Tab.0.bottom" timestamp="1586396846905">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1293" height="170" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1585974751698" />
-    <state width="1293" height="170" key="GridCell.Tab.0.center" timestamp="1585974751698">
+    <state width="942" height="338" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1586396846905" />
+    <state width="942" height="338" key="GridCell.Tab.0.center" timestamp="1586396846904">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1293" height="170" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1585974751698" />
-    <state width="1293" height="170" key="GridCell.Tab.0.left" timestamp="1585974751698">
+    <state width="942" height="338" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1586396846904" />
+    <state width="942" height="338" key="GridCell.Tab.0.left" timestamp="1586396846904">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1293" height="170" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1585974751698" />
-    <state width="1293" height="170" key="GridCell.Tab.0.right" timestamp="1585974751698">
+    <state width="942" height="338" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1586396846904" />
+    <state width="942" height="338" key="GridCell.Tab.0.right" timestamp="1586396846905">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1293" height="170" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1585974751698" />
-    <state width="1293" height="170" key="GridCell.Tab.1.bottom" timestamp="1585974751699">
+    <state width="942" height="338" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1586396846905" />
+    <state width="942" height="338" key="GridCell.Tab.1.bottom" timestamp="1586396846905">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1293" height="170" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1585974751699" />
-    <state width="1293" height="170" key="GridCell.Tab.1.center" timestamp="1585974751699">
+    <state width="942" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1586396846905" />
+    <state width="942" height="338" key="GridCell.Tab.1.center" timestamp="1586396846905">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1293" height="170" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1585974751699" />
-    <state width="1293" height="170" key="GridCell.Tab.1.left" timestamp="1585974751698">
+    <state width="942" height="338" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1586396846905" />
+    <state width="942" height="338" key="GridCell.Tab.1.left" timestamp="1586396846905">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1293" height="170" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1585974751698" />
-    <state width="1293" height="170" key="GridCell.Tab.1.right" timestamp="1585974751699">
+    <state width="942" height="338" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1586396846905" />
+    <state width="942" height="338" key="GridCell.Tab.1.right" timestamp="1586396846905">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1293" height="170" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1585974751699" />
-    <state width="1293" height="170" key="GridCell.Tab.2.bottom" timestamp="1585974751699">
+    <state width="942" height="338" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1586396846905" />
+    <state width="942" height="338" key="GridCell.Tab.2.bottom" timestamp="1586396846905">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1293" height="170" key="GridCell.Tab.2.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1585974751699" />
-    <state width="1293" height="170" key="GridCell.Tab.2.center" timestamp="1585974751699">
+    <state width="942" height="338" key="GridCell.Tab.2.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1586396846905" />
+    <state width="942" height="338" key="GridCell.Tab.2.center" timestamp="1586396846905">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1293" height="170" key="GridCell.Tab.2.center/0.0.1920.1050@0.0.1920.1050" timestamp="1585974751699" />
-    <state width="1293" height="170" key="GridCell.Tab.2.left" timestamp="1585974751699">
+    <state width="942" height="338" key="GridCell.Tab.2.center/0.0.1920.1050@0.0.1920.1050" timestamp="1586396846905" />
+    <state width="942" height="338" key="GridCell.Tab.2.left" timestamp="1586396846905">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1293" height="170" key="GridCell.Tab.2.left/0.0.1920.1050@0.0.1920.1050" timestamp="1585974751699" />
-    <state width="1293" height="170" key="GridCell.Tab.2.right" timestamp="1585974751699">
+    <state width="942" height="338" key="GridCell.Tab.2.left/0.0.1920.1050@0.0.1920.1050" timestamp="1586396846905" />
+    <state width="942" height="338" key="GridCell.Tab.2.right" timestamp="1586396846905">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1293" height="170" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1585974751699" />
+    <state width="942" height="338" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1586396846905" />
     <state width="1293" height="170" key="GridCell.Tab.3.bottom" timestamp="1585974533657">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -405,14 +431,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1293" height="170" key="GridCell.Tab.3.right/0.0.1920.1050@0.0.1920.1050" timestamp="1585974533656" />
-    <state x="622" y="198" key="SettingsEditor" timestamp="1585974748603">
+    <state x="622" y="198" key="SettingsEditor" timestamp="1586397687160">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="622" y="198" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1585974748603" />
-    <state x="645" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1585974547390">
+    <state x="622" y="198" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1586397687160" />
+    <state x="645" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1586396864192">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="645" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1585974547390" />
+    <state x="645" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1586396864192" />
     <state x="720" y="262" width="672" height="678" key="search.everywhere.popup" timestamp="1585931848191">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -423,7 +449,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/thr/dao/DAO.java</url>
-          <line>54</line>
+          <line>55</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

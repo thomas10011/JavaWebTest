@@ -11,7 +11,6 @@
     <title>登录</title>
 </head>
 <body>
-    测试<br>
 
     <form action="ProcLogin.jsp" method="post">
         <table align="center" width="300" border="1" height="150">
@@ -26,7 +25,7 @@
             </tr>
             <tr>
                 <td align="right">密 码：</td>
-                <td><input type="text" name="userPwd"/></td>
+                <td><input type="password" name="userPwd"/></td>
             </tr>
             <tr>
                 <td colspan="2" align="center">
@@ -35,5 +34,14 @@
             </tr>
         </table>
     </form>
+
+    <script type="text/javascript" language="JavaScript">
+
+        //取出传回来的参数error并与yes比较
+        var errori ='<%=request.getParameter("login")%>';
+        if(errori=="false"){
+            window.alert("登录失败!请检查用户名和密码！");
+        }
+    </script>
 </body>
 </html>

@@ -11,6 +11,10 @@
     <title>登录</title>
 </head>
 <body>
-登陆成功
+    <div align="center"> 欢迎！</div>
+    <div align="center">
+        <input type="button" value="修改密码" onclick="window.location.href='modifyPwdPage.html'" align="center">
+
+    </div>
 </body>
 </html>

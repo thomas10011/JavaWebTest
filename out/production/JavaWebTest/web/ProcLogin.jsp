@@ -7,23 +7,22 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page import="com.thr.login.CheckInfo" %>
-<html>
-<head>
-    <title>Title</title>
-</head>
-<body>
-<div align="center">
-    <%
-        //获取用户名和密码
-        String userName = request.getParameter("userName");
-        String userPwd = request.getParameter("userPwd");
-        if(CheckInfo.CheckInfo(userName, userPwd)){
-            out.print("<br>登陆成功</br>");
-        }
-        else {
-            out.print("<br>登录失败</br>");
-        }
-    %>
-</div>
-</body>
-</html>
+
+<%
+    //获取用户名和密码
+    String userName = request.getParameter("userName");
+    String userPwd = request.getParameter("userPwd");
+    if(CheckInfo.CheckInfo(userName, userPwd)){
+        session.setAttribute("name",userName);
+        session.setAttribute("password", userPwd);
+        response.sendRedirect("SuccessLogin.jsp");
+
+    }
+    else {
+        //重定向到登录页面
+        response.sendRedirect("LoginPage.html?login=false");
+        //out.print("<br>登录失败</br>");
+
+    }
+%>
+

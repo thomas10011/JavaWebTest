@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>修改密码</title>
+</head>
+<body>
+<form action="ProcModify.jsp" method="post" onsubmit="return check()">
+    <table align="center" border="1" width="300" height="150">
+        <tr>
+            <td align="right">新密码：</td>
+            <td><input type="text" id="p1"></td>
+        </tr>
+        <tr>
+            <td align="right">确认密码：</td>
+            <td><input type="text" id="p2" name="password"></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="修改">
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
+
+<script type="text/javascript" language="JavaScript">
+    function check() {
+        let p1 = document.getElementById("p1").value;
+        let p2 = document.getElementById("p2").value;
+        if(p1===p2){
+            return true;
+        }
+        else {
+            window.alert("两次输入的密码不一致，请检查！");
+            return false;
+        }
+    }
+</script>

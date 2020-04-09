@@ -11,6 +11,10 @@
     <title>登录</title>
 </head>
 <body>
-登陆成功
+    <div align="center"> 欢迎！</div>
+    <div align="center">
+
+
+    </div>
 </body>
 </html>

@@ -11,7 +11,7 @@ public class DAO {
     protected static String dbUrl = "jdbc:mysql://localhost:3306/myusr?useSSL=false&serverTimezone=UTC";
 
     protected static String dbUser = "root";
-    protected static String dbPwd = "19991119+thr";
+    protected static String dbPwd = "Thomas10011";
 
     protected static String second = null;
 
@@ -75,6 +75,37 @@ public class DAO {
             ee.printStackTrace();
         }
         return  rs;
+    }
+
+    public static boolean createUsr(String name, String pwd){
+        String sql = "insert into usrinfo (name, password) values (\'" + name + "\',\'" + pwd + "\')";
+        System.out.println(sql);
+        try{
+            Statement st = conn.createStatement();
+            st.execute(sql);
+        }
+        catch (SQLException ee){
+            ee.printStackTrace();
+            return false;
+        }
+        return true;
+
+
+    }
+
+    public static boolean modifyPwd(String name, String newPwd){
+        String sql = "update usrinfo set password='" + newPwd + "'" + "where name='" +name +"'";
+        System.out.println(sql);
+        try{
+            Statement st = conn.createStatement();
+            st.execute(sql);
+        }
+        catch (SQLException s){
+            s.printStackTrace();
+            return false;
+        }
+
+        return true;
     }
 
 }
